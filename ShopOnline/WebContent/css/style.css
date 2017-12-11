@@ -23,7 +23,7 @@ h1,h2,h3,h4,h5,h6,label,p{
 	margin:0;	
 }
 .header-top{
-	background:#fb5e33;
+	background:#4b4b4b;
 }
 .header-top-in{
 	padding: 1.5em 1em;
@@ -46,7 +46,7 @@ h1,h2,h3,h4,h5,h6,label,p{
 	padding:1.4em 1em;
 }
 .header-in ul li a:hover{
-	  color: #9fdcda;
+	  color: #f95a32;
 }
 .cart{
 	vertical-align: middle;
@@ -56,7 +56,7 @@ h1,h2,h3,h4,h5,h6,label,p{
 a.cart-in{
 	width: 37px;
 	height: 37px;
-	background: url(../images/img-sprite.png)no-repeat -7px -57px ;
+	background: url(../images/3.png)no-repeat;
 	display:block;
 	text-decoration:none;
 }
@@ -688,9 +688,9 @@ ul.callbacks_tabs.callbacks1_tabs {
 	background-size: cover;
 }
 .banner-bottom{
-	background:#92d3d0;
+	background:#4b4b4b;
 	padding:1.5em 1em;
-	border-bottom:7px solid #8dcac8;
+	border-bottom:7px solid #4b4b4b;
 }
 .banner-matter{
 	float:right;	
@@ -736,13 +736,13 @@ ul.callbacks_tabs.callbacks1_tabs {
 	float:left;
 }
 .hvr-shutter-in-vertical2{	
-	background: rgb(157,218,216);
-	background: -moz-linear-gradient(top, rgba(157,218,216,1) 52%, rgba(119,168,164,1) 100%);
-	background: -webkit-gradient(linear, left top, left bottom, color-stop(52%,rgba(157,218,216,1)), color-stop(100%,rgba(119,168,164,1)));
-	background: -webkit-linear-gradient(top, rgba(157,218,216,1) 52%,rgba(119,168,164,1) 100%);
-	background: -o-linear-gradient(top, rgba(157,218,216,1) 52%,rgba(119,168,164,1) 100%);
-	background: -ms-linear-gradient(top, rgba(157,218,216,1) 52%,rgba(119,168,164,1) 100%);
-	background: linear-gradient(to bottom, rgba(157,218,216,1) 52%,rgba(119,168,164,1) 100%);
+	background: rgb(255,69,0);
+	background: -moz-linear-gradient(top, rgb(255,99,71) 52%, rgb(255,127,80) 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(52%,rgb(255,99,71)), color-stop(100%,rgb(255,127,80)));
+	background: -webkit-linear-gradient(top, rgb(255,99,71) 52%,rgb(255,127,80) 100%);
+	background: -o-linear-gradient(top, rgb(255,99,71) 52%,rgb(255,127,80) 100%);
+	background: -ms-linear-gradient(top, rgb(255,99,71) 52%,rgb(255,127,80) 100%);
+	background: linear-gradient(to bottom, rgb(255,99,71) 52%,rgb(255,127,80) 100%);
 	
 	line-height:1.3em;
 }
@@ -775,13 +775,13 @@ ul.callbacks_tabs.callbacks1_tabs {
 }
 .hvr-shutter-in-vertical2:before{
 	border-radius:5px;
-	background: rgb(252,94,53);
-	background: -moz-linear-gradient(top, rgba(252,94,53,1) 55%, rgba(252,94,53,1) 55%, rgba(233,71,34,1) 100%);
-	background: -webkit-gradient(linear, left top, left bottom, color-stop(55%,rgba(252,94,53,1)), color-stop(55%,rgba(252,94,53,1)), color-stop(100%,rgba(233,71,34,1)));
-	background: -webkit-linear-gradient(top, rgba(252,94,53,1) 55%,rgba(252,94,53,1) 55%,rgba(233,71,34,1) 100%);
-	background: -o-linear-gradient(top, rgba(252,94,53,1) 55%,rgba(252,94,53,1) 55%,rgba(233,71,34,1) 100%);
-	background: -ms-linear-gradient(top, rgba(252,94,53,1) 55%,rgba(252,94,53,1) 55%,rgba(233,71,34,1) 100%);
-	background: linear-gradient(to bottom, rgba(252,94,53,1) 55%,rgba(252,94,53,1) 55%,rgba(233,71,34,1) 100%);
+	background: rgb(0,0,0);
+	background: -moz-linear-gradient(top, rgb(105,105,105) 55%, rgb(128,128,128) 55%, rgb(169,169,169) 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(55%,rgb(128,128,128)), color-stop(55%,rgb(169,169,169)), color-stop(100%,rgba(233,71,34,1)));
+	background: -webkit-linear-gradient(top, rgb(105,105,105) 55%,rgb(128,128,128) 55%,rgb(169,169,169) 100%);
+	background: -o-linear-gradient(top, rgb(105,105,105) 55%,rgb(128,128,128) 55%,rgb(169,169,169) 100%);
+	background: -ms-linear-gradient(top, rgb(105,105,105) 55%,rgb(128,128,128) 55%,rgb(169,169,169) 100%);
+	background: linear-gradient(to bottom, rgb(105,105,105) 55%,rgb(128,128,128) 55%,rgb(169,169,169) 100%);
 }
 .hvr-shutter-in-vertical:hover, .hvr-shutter-in-vertical:focus, .hvr-shutter-in-vertical:active {
   color: white;
@@ -821,6 +821,7 @@ ul.callbacks_tabs.callbacks1_tabs {
 }
 
 .top-content h5{
+	height: 50px;
 	font-size:1.1em;
 	padding:0.5em 0 1.5em;
 }
@@ -1148,13 +1149,13 @@ h2.contact-in:after{
 	font-size: 1em;
 }
 .contact-top input[type="submit"]{
-	background: rgb(252,94,53);
-	background: -moz-linear-gradient(top, rgba(252,94,53,1) 55%, rgba(252,94,53,1) 55%, rgba(233,71,34,1) 100%);
-	background: -webkit-gradient(linear, left top, left bottom, color-stop(55%,rgba(252,94,53,1)), color-stop(55%,rgba(252,94,53,1)), color-stop(100%,rgba(233,71,34,1)));
-	background: -webkit-linear-gradient(top, rgba(252,94,53,1) 55%,rgba(252,94,53,1) 55%,rgba(233,71,34,1) 100%);
-	background: -o-linear-gradient(top, rgba(252,94,53,1) 55%,rgba(252,94,53,1) 55%,rgba(233,71,34,1) 100%);
-	background: -ms-linear-gradient(top, rgba(252,94,53,1) 55%,rgba(252,94,53,1) 55%,rgba(233,71,34,1) 100%);
-	background: linear-gradient(to bottom, rgba(252,94,53,1) 55%,rgba(252,94,53,1) 55%,rgba(233,71,34,1) 100%);
+	background: rgb(0,0,0);
+	background: -moz-linear-gradient(top, rgb(105,105,105) 55%, rgb(128,128,128) 55%, rgb(169,169,169) 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(55%,rgb(105,105,105)), color-stop(55%,rgb(128,128,128)), color-stop(100%,rgb(169,169,169)));
+	background: -webkit-linear-gradient(top, rgb(105,105,105) 55%,rgb(128,128,128) 55%,rgb(169,169,169) 100%);
+	background: -o-linear-gradient(top, rgb(105,105,105) 55%,rgb(128,128,128) 55%,rgb(169,169,169) 100%);
+	background: -ms-linear-gradient(top, rgb(105,105,105) 55%,rgb(128,128,128) 55%,rgb(169,169,169) 100%);
+	background: linear-gradient(to bottom, rgb(105,105,105) 55%,rgb(128,128,128) 55%,rgb(169,169,169) 100%);
 	color:#fff;
 	font-size:1.1em;
 	border:none;
@@ -1169,13 +1170,13 @@ h2.contact-in:after{
 	-o-transition: 0.5s all;
 }
 .contact-top input[type="submit"]:hover{
-	background: rgb(157,218,216);
-	background: -moz-linear-gradient(top, rgba(157,218,216,1) 52%, rgba(119,168,164,1) 100%);
-	background: -webkit-gradient(linear, left top, left bottom, color-stop(52%,rgba(157,218,216,1)), color-stop(100%,rgba(119,168,164,1)));
-	background: -webkit-linear-gradient(top, rgba(157,218,216,1) 52%,rgba(119,168,164,1) 100%);
-	background: -o-linear-gradient(top, rgba(157,218,216,1) 52%,rgba(119,168,164,1) 100%);
-	background: -ms-linear-gradient(top, rgba(157,218,216,1) 52%,rgba(119,168,164,1) 100%);
-	background: linear-gradient(to bottom, rgba(157,218,216,1) 52%,rgba(119,168,164,1) 100%);
+	background: rgb(255,69,0);
+	background: -moz-linear-gradient(top, rgb(255,99,71) 52%, rgb(255,127,80) 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(52%,rgb(255,127,80)), color-stop(100%,rgb(255,127,80)));
+	background: -webkit-linear-gradient(top, rgb(255,99,71) 52%,rgb(255,127,80) 100%);
+	background: -o-linear-gradient(top, rgb(255,99,71) 52%,rgb(255,127,80) 100%);
+	background: -ms-linear-gradient(top, rgb(255,99,71) 52%,rgb(255,127,80) 100%);
+	background: linear-gradient(to bottom, rgb(255,99,71) 52%,rgb(255,127,80) 100%);
 }
 .contact-top p{
 	font-size: 1em;
@@ -1295,13 +1296,13 @@ span.word{
 	height:60px;		
 }
 .account input[type="submit"]{
-	background: rgb(252,94,53);
-	background: -moz-linear-gradient(top, rgba(252,94,53,1) 55%, rgba(252,94,53,1) 55%, rgba(233,71,34,1) 100%);
-	background: -webkit-gradient(linear, left top, left bottom, color-stop(55%,rgba(252,94,53,1)), color-stop(55%,rgba(252,94,53,1)), color-stop(100%,rgba(233,71,34,1)));
-	background: -webkit-linear-gradient(top, rgba(252,94,53,1) 55%,rgba(252,94,53,1) 55%,rgba(233,71,34,1) 100%);
-	background: -o-linear-gradient(top, rgba(252,94,53,1) 55%,rgba(252,94,53,1) 55%,rgba(233,71,34,1) 100%);
-	background: -ms-linear-gradient(top, rgba(252,94,53,1) 55%,rgba(252,94,53,1) 55%,rgba(233,71,34,1) 100%);
-	background: linear-gradient(to bottom, rgba(252,94,53,1) 55%,rgba(252,94,53,1) 55%,rgba(233,71,34,1) 100%);
+	background: rgb(0,0,0);
+	background: -moz-linear-gradient(top, rgb(105,105,105) 55%, rgb(128,128,128) 55%, rgb(169,169,169) 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(55%,rgb(105,105,105)), color-stop(55%,rgb(128,128,128)), color-stop(100%,rgb(169,169,169)));
+	background: -webkit-linear-gradient(top, rgb(105,105,105) 55%,rgb(128,128,128) 55%,rgb(169,169,169) 100%);
+	background: -o-linear-gradient(top, rgb(105,105,105) 55%,rgb(128,128,128) 55%,rgb(169,169,169) 100%);
+	background: -ms-linear-gradient(top, rgb(105,105,105) 55%,rgb(128,128,128) 55%,rgb(169,169,169) 100%);
+	background: linear-gradient(to bottom, rgb(105,105,105) 55%,rgb(128,128,128) 55%,rgb(169,169,169) 100%);
 	color:#fff;
 	font-size:1.1em;
 	border:none;
@@ -1316,13 +1317,13 @@ span.word{
 	  margin: 0 0 0 7em;
 }
 .account input[type="submit"]:hover{
-	background: rgb(157,218,216);
-	background: -moz-linear-gradient(top, rgba(157,218,216,1) 52%, rgba(119,168,164,1) 100%);
-	background: -webkit-gradient(linear, left top, left bottom, color-stop(52%,rgba(157,218,216,1)), color-stop(100%,rgba(119,168,164,1)));
-	background: -webkit-linear-gradient(top, rgba(157,218,216,1) 52%,rgba(119,168,164,1) 100%);
-	background: -o-linear-gradient(top, rgba(157,218,216,1) 52%,rgba(119,168,164,1) 100%);
-	background: -ms-linear-gradient(top, rgba(157,218,216,1) 52%,rgba(119,168,164,1) 100%);
-	background: linear-gradient(to bottom, rgba(157,218,216,1) 52%,rgba(119,168,164,1) 100%);
+	background: rgb(255,69,0);
+	background: -moz-linear-gradient(top, rgb(255,99,71) 52%, rgb(255,127,80) 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(52%,rgb(255,127,80)), color-stop(100%,rgb(255,127,80)));
+	background: -webkit-linear-gradient(top, rgb(255,99,71) 52%,rgb(255,127,80) 100%);
+	background: -o-linear-gradient(top, rgb(255,99,71) 52%,rgb(255,127,80) 100%);
+	background: -ms-linear-gradient(top, rgb(255,99,71) 52%,rgb(255,127,80) 100%);
+	background: linear-gradient(to bottom, rgb(255,99,71) 52%,rgb(255,127,80) 100%);
 }
 .account{
 	padding: 4em 1em;
@@ -1966,12 +1967,17 @@ h2.contact-in,h2.products-in {
 
 
 
-
-
-
-
-
-
-
-
-
+#goTop {
+bottom: 200px;
+cursor: pointer;
+display: none;
+height: 35px;
+position: fixed;
+right: 155px;
+width: 44px;
+z-index: 1000;
+background: url('../images/up.png') no-repeat 0px 0px;
+}
+.myshoppingcart{
+	min-height: 400px;
+}

@@ -5,9 +5,28 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
 <title>Footer</title>
+<style>
+#back-to-top{
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+    background-color: #000000;
+    box-shadow: 0px 5px 50px rgba(0, 0, 0, 0.64);
+    color: #fff;
+    display: block;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    z-index: 99;
+}
+
+</style>
+
+<script src="https://use.fontawesome.com/fa36195e80.js"></script>
 </head>
 <body>
-		<div class="footer">
+		<!-- <div class="footer">
 			<div class="footer-top">
 				<div class="container">
 					<div class="col-md-4 footer-in">
@@ -24,53 +43,10 @@
 					</div>
 					<div class="clearfix"></div>
 				</div>
-			</div>
+			</div> -->
 			<!---->
-			<div class="footer-middle">
-				<div class="container">
-					<div class="footer-middle-in">
-						<h6>About us</h6>
-						<p>Suspendisse sed accumsan risus. Curabitur rhoncus, elit vel tincidunt elementum, nunc urna tristique nisi, in interdum libero magna tristique ante. adipiscing varius. Vestibulum dolor lorem.</p>
-					</div>
-					<div class="footer-middle-in">
-						<h6>Information</h6>
-						<ul>
-							<li><a href="#">About Us</a></li>
-							<li><a href="#">Delivery Information</a></li>
-							<li><a href="#">Privacy Policy</a></li>
-							<li><a href="#">Terms & Conditions</a></li>
-						</ul>
-					</div>
-					<div class="footer-middle-in">
-						<h6>Customer Service</h6>
-						<ul>
-							<li><a href="contact.html">Contact Us</a></li>
-							<li><a href="#">Returns</a></li>
-							<li><a href="#">Site Map</a></li>
-						</ul>
-					</div>
-					<div class="footer-middle-in">
-						<h6>My Account</h6>
-						<ul>
-							<li><a href="account.html">My Account</a></li>
-							<li><a href="#">Order History</a></li>
-							<li><a href="wishlist.html">Wish List</a></li>
-							<li><a href="#">Newsletter</a></li>
-						</ul>
-					</div>
-					<div class="footer-middle-in">
-						<h6>Extras</h6>
-						<ul>
-							<li><a href="#">Brands</a></li>
-							<li><a href="#">Gift Vouchers</a></li>
-							<li><a href="#">Affiliates</a></li>
-							<li><a href="#">Specials</a></li>
-						</ul>
-					</div>
-					<div class="clearfix"></div>
-				</div>
-			</div>
-			<p class="footer-class">Copyright © 2015 Modern Template by  <a href="http://w3layouts.com/" target="_blank">W3layouts</a> </p>
+			
+			<p class="footer-class">Copyright &copy; 2017 <a href="#">MobileShop</a> </p>
 			<script type="text/javascript">
 						$(document).ready(function() {
 							/*
@@ -86,7 +62,39 @@
 							
 						});
 					</script>
-				<a href="#" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
+					<script type="text/javascript">
+					$(function(){
+						$(window).scroll(function () {
+						if ($(this).scrollTop() > 100) $('#toTop').fadeIn();
+						else $('#toTop').fadeOut();
+						});
+						$('#goTop').click(function () {
+						$('body,html').animate({scrollTop: 0}, 'slow');
+						});
+						});
+					
+					
+					</script>
+				<!-- <a href="#" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a> -->
+				
+				<script type="text/javascript">
+				$(window).scroll(function () {
+				    var top=$(window).scrollTop();
+				   if (top > 100) {
+				     $("#back-to-top").addClass('active');
+				   } else {
+				     $("#back-to-top").removeClass('active');
+				   }
+				});
+				$(document).ready(function(){
+				    $("#back-to-top").click(function () {
+				        $("html, body").animate({ scrollTop: 0 }, "slow");
+				        return false;
+				    });
+				});
+				</script>
+				<a id="back-to-top" href="#"><i class="fa fa-angle-up"></i></a>
+				
 
 		</div>
 </body>

@@ -7,7 +7,7 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
 <title>Insert title here</title>
-
+<meta charset="UTF-8">
 <script type="text/javascript" src="https://www.google.com/jsapi"></script>
          <script type="text/javascript">
             // Load the Visualization API and the piechart package.

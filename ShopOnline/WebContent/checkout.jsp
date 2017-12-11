@@ -91,6 +91,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 					<option value="Bank Transfer">Bank Transfer</option>
 					<option value="Live">Live</option>
 				</select>
+				
 				</div> 					
 					<input type="submit" value="payment"> 
 				</form>

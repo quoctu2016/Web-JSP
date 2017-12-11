@@ -22,7 +22,7 @@ if(cart==null){
 <div class="header">
 		<div class="header-top">
 			<div class="container">	
-			<div class="header-top-in">			
+			<div class="header-top-in row">			
 				<div class="logo">
 					<a href="index.jsp"><img src="images/logo.png" alt=" " ></a>
 				</div>
@@ -47,7 +47,7 @@ if(cart==null){
 							   	 <div class="message">
 							   	     <div class="alert-close"><a href="/ShopOnline/CartServlet?command=remove&id_pro=<%= list.getValue().getProduct().getPro_id() %>"></a></div> 
 					                <div class="list_img"><img src="images/<%= list.getValue().getProduct().getPro_image() %>" class="img-responsive" alt=""></div>
-								    <div class="list_desc"><h4><a href="#"><%= list.getValue().getProduct().getPro_name() %></a></h4><%= list.getValue().getQuantity()%> x<span class="actual">
+								    <div class="list_desc"><h4><a href="/ShopOnline/detail.jsp?id_pro=<%= list.getValue().getProduct().getPro_id()%>"><%= list.getValue().getProduct().getPro_name() %></a></h4><%= list.getValue().getQuantity()%> x<span class="actual">
 		                             $<%= list.getValue().getProduct().getPrice() %></span></div>
 		                              <div class="clearfix"></div>
 	                              </div>

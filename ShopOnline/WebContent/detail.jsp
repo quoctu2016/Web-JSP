@@ -85,7 +85,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 							 <hr>
 							<div class="para-grid">
 								<span  class="add-to">$<%=p.getPrice() %></span>
-								<a href="#" class="hvr-shutter-in-vertical cart-to">Add to Cart</a>					
+								<a href="/ShopOnline/CartServlet?command=plus&id_pro=<%= p.getPro_id() %>&cat_id=<%= p.getCat_id() %>" class="hvr-shutter-in-vertical cart-to">Add to Cart</a>					
 								<div class="clearfix"></div>
 							 </div>
 							 <hr>
@@ -102,7 +102,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 							<div class="col-md">
 								<a href="/ShopOnline/detail.jsp?id_pro=<%= p3.getPro_id() %>"><img height="200"  src="images/<%= p3.getPro_image() %>" alt="" /></a>	
 								<div class="top-content">
-									<<h5><a href="detail.jsp?id_pro=<%= p3.getPro_id() %>"><%= p3.getPro_name() %></a></h5>
+									<h5><a href="detail.jsp?id_pro=<%= p3.getPro_id() %>"><%= p3.getPro_name() %></a></h5>
 									<div class="white">
 										<a href="/ShopOnline/CartServlet?command=plus&id_pro=<%= p3.getPro_id() %>&cat_id=<%= p3.getCat_id() %>" class="hvr-shutter-in-vertical hvr-shutter-in-vertical2">ADD TO CART</a>
 										<p class="dollar"><span class="in-dollar">$<%= p3.getPrice() %></span></p>

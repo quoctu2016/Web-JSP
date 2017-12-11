@@ -77,7 +77,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 	<div id="page-wrapper">
 
             <div class="container">
-            <div class="row">
+            <div class="row myshoppingcart">
                     <div class="col-lg-12">
                         <h2 style="margin: 20px;">Your Cart</h2>
                         <hr>

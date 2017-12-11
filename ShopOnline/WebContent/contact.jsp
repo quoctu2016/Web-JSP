@@ -54,39 +54,18 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			<div class="contact">
 			<h2 class=" contact-in">CONTACT</h2>
 				
-				<div class="col-md-6 contact-top">
+				<div class="col-md-12 contact-top">
 					<h3>Info</h3>
 					<div class="map">
-						<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d37494223.23909492!2d103!3d55!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x453c569a896724fb%3A0x1409fdf86611f613!2sRussia!5e0!3m2!1sen!2sin!4v1415776049771"></iframe>
+					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3918.4724552264925!2d106.62583631435118!3d10.85162499227048!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31752a2769eec849%3A0xc623b505cddae0bf!2zQ2FvIMSR4bqzbmcgVmnhu4VuIMSQw7RuZw!5e0!3m2!1svi!2s!4v1512885373663" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
 					</div>
 					
-					<p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas </p>
-					<p>Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id </p>				
 					<ul class="social ">
-						<li><span><i > </i>124 Avenue Street, Los angeles,California </span></li>
-						<li><span><i class="down"> </i>+ 00 123 456 7890</span></li>
-						<li><a href="mailto:info@example.com"><i class="mes"> </i>info@example.com</a></li>
+						<li><span><i > </i>Quang Trung Software Park, Tan Hung Thuan, District 12, Ho Chi Minh City, Vietnam
+</span></li>
+						<li><span><i class="down"> </i>+ 84 971 782 185</span></li>
+						<li><a href="mailto:info@example.com"><i class="mes"> </i>quoctu2014@example.com</a></li>
 					</ul>
-				</div>
-				<div class="col-md-6 contact-top">
-					<h3>Want to work with me?</h3>
-						<div>
-							<span>Your Name </span>		
-							<input type="text" value="" >						
-						</div>
-						<div>
-							<span>Your Email </span>		
-							<input type="text" value="" >						
-						</div>
-						<div>
-							<span>Subject</span>		
-							<input type="text" value="" >	
-						</div>
-						<div>
-							<span>Your Message</span>		
-							<textarea> </textarea>	
-						</div>
-						<input type="submit" value="SEND" >	
 				</div>
 			<div class="clearfix"> </div>
 		</div>

@@ -1,5 +1,7 @@
 eclipse.preferences.version=1
 encoding//WebContent/admin/insert_product.jsp=UTF-8
+encoding//WebContent/contact.jsp=UTF-8
+encoding//WebContent/footer.jsp=UTF-8
 encoding//src/connection/MySQLConnUtils.java=UTF-8
 encoding//src/shop/controllers/CheckOutServlet.java=UTF-8
 encoding//src/shop/controllers/ManagerProServlet.java=UTF-8

@@ -27,7 +27,7 @@
 
 				<div class="banner-bottom">
 					<div class="banner-matter">
-						<p>Childish Gambino - Camp Now Available for just $9.99</p> 
+						<p>Order today to save up to 50%</p> 
 					</div>
 					<div class="purchase">
 						

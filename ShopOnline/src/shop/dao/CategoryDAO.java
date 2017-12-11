@@ -15,7 +15,7 @@ public class CategoryDAO {
 		Connection conn = MySQLConnUtils.getMySQLConnection();
 		
 		String sql = "Select * from category";
-		PreparedStatement ps = conn.prepareCall(sql);
+		PreparedStatement ps = conn.prepareStatement(sql);
 		ResultSet rs = ps.executeQuery();
 		ArrayList<Category> list = new ArrayList<Category>();
 		while(rs.next())
@@ -85,16 +85,7 @@ public class CategoryDAO {
     	return result;
 	}
 	public static void main(String[] args) throws ClassNotFoundException, SQLException {
-		Category cat = new Category();
-		cat.setCat_id(new Date().getTime());
-		cat.setCat_name("s");
-		if(insert(cat)) {
-			System.out.println("ok");
-		}
-		else {
-			System.out.println("Failed");
-		}
-		
+		System.out.println(getCategory().size());
 		
 	}
 	

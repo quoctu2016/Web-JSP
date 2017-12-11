@@ -21,7 +21,7 @@
 								<div class="top-content">
 									<h5><a href="detail.jsp?id_pro=<%= p.getPro_id() %>"><%= p.getPro_name() %></a></h5>
 									<div class="white">
-										<a href="/ShopOnline/CartServlet?command=plus&id_pro=<%= p.getPro_id() %>&cat_id=<%= p.getCat_id() %>" class="hvr-shutter-in-vertical hvr-shutter-in-vertical2 ">ADD TO CART</a>
+										<a href="/ShopOnline/CartServlet?command=plus&id_pro=<%= p.getPro_id() %>&cat_id=<%= p.getCat_id() %>" class="hvr-shutter-in-vertical hvr-shutter-in-vertical2 ">ADD</a>
 										<p class="dollar"><span class="in-dollar">$<%=p.getPrice() %></span></p>
 										<div class="clearfix"></div>
 									</div>
@@ -87,7 +87,7 @@
 								<div class="top-content bag">
 									<h5><a href="detail.jsp?id_pro=<%= p.getPro_id() %>"><%= p.getPro_name() %></a></h5>
 									<div class="white">
-										<a href="/ShopOnline/CartServlet?command=plus&id_pro=<%= p.getPro_id() %>&cat_id=<%= p.getCat_id() %>" class="hvr-shutter-in-vertical hvr-shutter-in-vertical2">ADD TO CART</a>
+										<a href="/ShopOnline/CartServlet?command=plus&id_pro=<%= p.getPro_id() %>&cat_id=<%= p.getCat_id() %>" class="hvr-shutter-in-vertical hvr-shutter-in-vertical2">ADD</a>
 										<p class="dollar"><span class="in-dollar">$<%=p.getPrice() %></span></p>
 										<div class="clearfix"></div>
 									</div>
